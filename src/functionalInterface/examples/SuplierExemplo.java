@@ -7,7 +7,6 @@ import java.util.stream.Stream;
 
 public class SuplierExemplo {
     //nao aceita argumento e retorna um resultado do tipo T
-
     public static void main(String[] args) {
         Supplier<String> saudacao = () -> "Olá, seja bem vindo";
 
